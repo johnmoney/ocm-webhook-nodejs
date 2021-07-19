@@ -2,7 +2,7 @@
 
 *OCM Webhook Node.js* is a demo of [Oracle Content Management webhook](https://docs.oracle.com/en/cloud/paas/content-cloud/solutions/use-webhooks.html) integrations built on Node.js, Express and Heroku. From the product documentation:
 
-> Use webhooks to receive push notifications about content lifecycle events and content publishing events. The Webhooks application let you automatically receive information from Oracle Content and Experience to send to external applications through REST APIs.
+> Use webhooks to receive push notifications about content lifecycle events and content publishing events. The Webhooks application let you automatically receive information from Oracle Content Management to send to external applications through REST APIs.
 
 This application persistently stores those notification events in a Postgres database in _channel_ (content publishing webhook) and _repository_ (content workflow webhook) tables. It can be used as a skeleton for creating your own application that integrates with OCM, for example:
 
